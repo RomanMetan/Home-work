@@ -1,0 +1,40 @@
+
+# #
+# a = int(input("Введите начало диапазона\n"))
+# b = int(input("Введите конец диапазона\n"))
+# for i in range(a,b+1):
+#     print("Все числа диапазона", i)
+#     if i % 7 == 0:
+#         print("Числа кратные 7", i)
+#
+# print("Все числа диапазона в убывающем порядке:")
+# for i in range(a, b - 1, -1):
+#     print(i).
+
+# a = int(input("Введите начало диапазона: "))
+# b = int(input("Введите конец диапазона: "))
+#
+# print("Все числа диапазона:")
+# for i in range(a, b + 1):
+#     print(i)
+#
+# print("Все числа диапазона в убывающем порядке:")
+# for i in range(a, b - 1, -1):
+#     print(i)
+#
+# print("Все числа, кратные 7:")
+# for i in range(a, b + 1):
+#     if i % 7 == 0:
+#         print(i)
+#
+#
+# for i in range(a, b + 1):
+#     if i % 5 == 0:
+#         print("Количество чисел, кратных 5:",)
+
+# a = int(input("Введите начало диапазона\n"))
+# b = int(input("Введите конец диапазона\n"))
+# for i in range(a,b+1):
+#     print('Fizz Buzz' if i % 3 == 0 else i % 5 == 0)
+for i in range(1, 15 - 1, -1):
+     print(i)
